@@ -30,7 +30,7 @@
 (use 'compojure.core)
 (use 'compojure.response)
 (use 'ring.adapter.jetty)
-(use 'clojure.contrib.logging)    
+(use 'clojure.contrib.logging)
 (use '[compojure.route :as route])
 (defroutes example
   (GET "/" [] "<h1>Testing plaza...</h1>")

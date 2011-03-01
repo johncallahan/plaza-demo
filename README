@@ -7,15 +7,16 @@ FIXME: write description
 Build th project:
 
       $ lein deps
-      $ lein compile
 
 Start the src/scrum/webapp.clj with
 
       $ lein repl
 
-Because scrum.webapp should be the "main" in project.clj
+You'll get this WARNING for now: 
 
-Then, use curl to hit the webapp server on port 8081:
+  WARNING: spit already refers to: #'clojure.core/spit in namespace: ring.util.servlet, being replaced by: #'clojure.contrib.duck-streams/spit
+
+Then, open up a new shell and use curl to hit the webapp server on port 8081:
 
       curl -X GET "http://localhost:8081/"
       curl -X GET "http://localhost:8081/Celebrity"
