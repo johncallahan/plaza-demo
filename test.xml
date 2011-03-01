@@ -1,0 +1,32 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="http://localhost:8081/Celebrity/1">
+    <j.0:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alonzo</j.0:name>
+    <j.0:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Church</j.0:surname>
+    <j.0:holdsAccount rdf:resource="http://en.wikipedia.org/wiki/Alonzo_Church"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <j.0:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-06-14</j.0:birthday>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8081/Celebrity/2">
+    <j.0:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan</j.0:name>
+    <j.0:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turing</j.0:surname>
+    <j.0:holdsAccount rdf:resource="http://en.wikipedia.org/wiki/Alan_Turing"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <j.0:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-06-14</j.0:birthday>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8081/Celebrity/3">
+    <j.0:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeff</j.0:name>
+    <j.0:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ullman</j.0:surname>
+    <j.0:holdsAccount rdf:resource="http://en.wikipedia.org/wiki/Jeffery_Ullman"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <j.0:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-06-14</j.0:birthday>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8081/Celebrity/4">
+    <j.0:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fred</j.0:name>
+    <j.0:surname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Church</j.0:surname>
+    <j.0:holdsAccount rdf:resource="http://en.wikipedia.org/wiki/Fred_Church"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <j.0:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-06-14</j.0:birthday>
+  </rdf:Description>
+</rdf:RDF>
