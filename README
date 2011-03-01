@@ -4,9 +4,14 @@ FIXME: write description
 
 ## Usage
 
+Build th project:
+
+      $ lein deps
+      $ lein compile
+
 Start the src/scrum/webapp.clj with
 
-      $ len repl
+      $ lein repl
 
 Because scrum.webapp should be the "main" in project.clj
 
