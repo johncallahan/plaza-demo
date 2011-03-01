@@ -1,0 +1,27 @@
+# scrum
+
+FIXME: write description
+
+## Usage
+
+Start the src/scrum/webapp.clj with
+
+      $ len repl
+
+Because scrum.webapp should be the "main" in project.clj
+
+Then, use curl to hit the webapp server on port 8081:
+
+      curl -X GET "http://localhost:8081/"
+      curl -X GET "http://localhost:8081/Celebrity"
+      curl -X GET "http://localhost:8081/Celebrity?name=Alonzo
+      curl -X GET "http://localhost:8081/Celebrity?surname=Church" (should get 2 records)
+      curl -X POST "http://localhost:8081/Celebrity?name=George&surname=Church" (will add a new record)
+
+The last command will NOT persist the record.  The static data is in the file test.xml
+
+## License
+
+Copyright (C) 2010 FIXME
+
+Distributed under the Eclipse Public License, the same as Clojure.
